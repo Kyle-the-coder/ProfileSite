@@ -125,8 +125,8 @@ export function Navbar() {
         <>
           <div className="navbar-logo-container">
             <Button
-              padding="10px 15px 10px 15px"
-              buttonName={"Contact Me"}
+              padding="10px 17px 10px 17px"
+              buttonName={"Contact"}
               size="1.5rem"
             />
             <img

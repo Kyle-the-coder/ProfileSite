@@ -1,13 +1,22 @@
 .hero-main-container {
   width: 100%;
-  height: 30%;
+  height: 500px;
   display: flex;
+  flex-direction: column;
   position: relative;
   align-items: center;
   justify-content: center;
+  background-color: aliceblue;
+  text-align: center;
+  padding: 10px;
+}
+.hero-main-container h1 {
+  z-index: 2;
+  font-size: 5rem;
+  text-shadow: 2px 3px 0px rgba(0, 0, 0, 0.874);
 }
 
-.hero-bg-img-container {
+.hero-bg-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -22,4 +31,16 @@
   position: absolute;
   top: 0;
   left: 0;
+  background: radial-gradient(
+    ellipse at center,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.646) 80%
+  );
+  z-index: 2;
+}
+
+@media only screen and (max-width: 800px) {
+  .hero-main-container h1 {
+    font-size: 4rem;
+  }
 }

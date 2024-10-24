@@ -1,8 +1,9 @@
+import { HeroSection } from "../../components/HeroSection/HeroSection";
+
 function LandingPage() {
   return (
     <div>
-      {" "}
-      <h1>landing page</h1>
+      <HeroSection />
     </div>
   );
 }
