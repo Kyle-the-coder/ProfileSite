@@ -7,11 +7,7 @@
 
 .btn {
   border-radius: 50px;
-  background-image: linear-gradient(
-    135deg,
-    #ece1d0 0%,
-    hsl(71.61deg 26.96% 22.55%) 100%
-  );
+  background-image: linear-gradient(135deg, #d8b886 0%, hsl(72, 49%, 23%) 100%);
   box-shadow: 0 20px 30px -6px hsl(71.61deg 26.96% 22.55%);
   outline: none;
   cursor: pointer;
