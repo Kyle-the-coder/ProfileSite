@@ -25,8 +25,8 @@ function ProjectPage() {
   useEffect(() => {
     gsap.fromTo(
       ".project-container",
-      { x: "-5%", opacity: 0 },
-      { x: "0%", opacity: 1, duration: 1.2, ease: "power3.inOut" }
+      { x: "-2%", opacity: 0 },
+      { x: "0%", opacity: 1, duration: 1, ease: "power3.inOut" }
     );
   }, [projectIndex]);
 
