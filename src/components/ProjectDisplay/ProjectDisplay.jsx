@@ -1,3 +1,4 @@
+import "./projectdisplay.css";
 export function ProjectDisplay({ video, title }) {
   return (
     <div className="project-comp-main-container">

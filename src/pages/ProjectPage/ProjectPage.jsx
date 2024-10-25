@@ -3,6 +3,7 @@ import "./projectpage.css";
 import { useEffect } from "react";
 import gsap from "gsap";
 import jewel from "../../assets/jewelvid.mp4";
+import pt from "../../assets//ptvid.mp4";
 import { ProjectDisplay } from "../../components/ProjectDisplay/ProjectDisplay";
 
 function ProjectPage() {
@@ -18,7 +19,7 @@ function ProjectPage() {
 
   const projectDisplayList = [
     <ProjectDisplay video={jewel} title={"Jewelry Store"} />,
-    <ProjectDisplay video="" title={"Physical Therapist"} />,
+    <ProjectDisplay video={pt} title={"Physical Therapist"} />,
     "Project 3",
     "Project 4",
     "Project 5",

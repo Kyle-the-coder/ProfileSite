@@ -1,6 +1,6 @@
 .project-main-container {
   width: 100%;
-  height: 600px;
+  height: 800px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,7 +28,6 @@
 .project-container {
   width: 95%;
   height: 95%;
-  background-color: rgb(226, 190, 134);
   display: flex;
   flex-direction: column;
   justify-content: center;
