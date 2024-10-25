@@ -75,7 +75,7 @@
     align-items: center;
     position: relative;
     z-index: 4;
-    padding: 0;
+    padding: 10px;
   }
 
   .navbar-phone-hamburger {
@@ -87,7 +87,7 @@
 
   .navbar-logo {
     margin: 0;
-    width: 350px;
+    width: 40%;
   }
 
   .navbar-phone-dropdown-container {
@@ -100,7 +100,7 @@
     justify-content: center;
     position: absolute;
     top: 0;
-    left: 0;
+    left: -10px;
     overflow: hidden;
     border-bottom-right-radius: 0.5rem;
     border-bottom-left-radius: 0.5rem;

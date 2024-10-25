@@ -1,7 +1,8 @@
 function ProjectPage() {
   return (
     <div className="project-main-container">
-      <h1>project page</h1>
+      <div className="project-list-container"></div>
+      <div className="project-display-container"></div>
     </div>
   );
 }

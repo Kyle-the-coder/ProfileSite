@@ -4,6 +4,7 @@ import { ErrorLayout } from "./layouts/ErrorLayout";
 import { landingRoute } from "./pages/LandingPage/LandingPage";
 import { projectRoute } from "./pages/ProjectPage/ProjectPage";
 import { aboutRoute } from "./pages/AboutMePage/AboutMePage";
+import { servicesRoute } from "./pages/ServicesPage/ServicesPage";
 
 export const router = createBrowserRouter([
   {
@@ -14,6 +15,7 @@ export const router = createBrowserRouter([
       { path: "/", ...landingRoute },
       { path: "/aboutme", ...aboutRoute },
       { path: "/projects", ...projectRoute },
+      { path: "/services", ...servicesRoute },
 
       //   {
       //     path: "/admin",
