@@ -1,5 +1,7 @@
 import { useState } from "react";
 import "./projectpage.css";
+import { useEffect } from "react";
+import gsap from "gsap";
 
 function ProjectPage() {
   const [projectIndex, setProjectIndex] = useState(0);
@@ -20,7 +22,13 @@ function ProjectPage() {
     "Project 5",
   ];
 
-  console.log(projectIndex);
+  useEffect(() => {
+    gsap.fromTo(
+      ".project-container",
+      { x: "-10%", opacity: 0 },
+      { x: "0%", opacity: 1, duration: 1.2, ease: "power3.inOut" }
+    );
+  }, [projectIndex]);
 
   return (
     <div className="project-main-container">
@@ -35,7 +43,8 @@ function ProjectPage() {
       </div>
       <div className="project-display-container">
         <div className="project-container">
-          {projectDisplayList.filter((i, index) => index === projectIndex)}
+          <h2>Project Name</h2>
+          <h1>{projectDisplayList[projectIndex]}</h1>
         </div>
       </div>
     </div>
