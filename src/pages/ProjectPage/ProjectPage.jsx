@@ -45,7 +45,7 @@ function ProjectPage() {
       </div>
       <div className="project-display-container">
         <div className="project-container">
-          <h1>{projectDisplayList[projectIndex]}</h1>
+          {projectDisplayList[projectIndex]}
         </div>
       </div>
     </div>

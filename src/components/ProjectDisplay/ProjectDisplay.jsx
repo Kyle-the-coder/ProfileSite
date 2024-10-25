@@ -5,7 +5,7 @@ export function ProjectDisplay({ video, title }) {
         <h1>{title}</h1>
       </div>
       <div className="project-comp-vid-container">
-        {/* <video src={video} className="project-comp-vid" autoPlay muted loop /> */}
+        <video src={video} className="project-comp-vid" autoPlay muted loop />
       </div>
     </div>
   );
