@@ -2,6 +2,8 @@ import { useState } from "react";
 import "./projectpage.css";
 import { useEffect } from "react";
 import gsap from "gsap";
+import jewel from "../../assets/jewelvid.mp4";
+import { ProjectDisplay } from "../../components/ProjectDisplay/ProjectDisplay";
 
 function ProjectPage() {
   const [projectIndex, setProjectIndex] = useState(0);
@@ -15,8 +17,8 @@ function ProjectPage() {
   ];
 
   const projectDisplayList = [
-    "Project 1",
-    "Project 2",
+    <ProjectDisplay video={jewel} title={"Jewelry Store"} />,
+    <ProjectDisplay video="" title={"Physical Therapist"} />,
     "Project 3",
     "Project 4",
     "Project 5",
@@ -43,7 +45,6 @@ function ProjectPage() {
       </div>
       <div className="project-display-container">
         <div className="project-container">
-          <h2>Project Name</h2>
           <h1>{projectDisplayList[projectIndex]}</h1>
         </div>
       </div>

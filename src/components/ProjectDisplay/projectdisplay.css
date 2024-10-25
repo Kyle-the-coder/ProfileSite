@@ -2,8 +2,10 @@
   width: 100%;
   height: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  justify-content: flex-start;
 }
 
 .project-comp-title-container {
@@ -24,6 +26,6 @@
 
 .project-comp-vid {
   width: 100%;
-  height: 100%;
-  object-fit: contain;
+  height: auto;
+  object-fit: cover;
 }
