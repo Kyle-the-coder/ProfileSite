@@ -1,11 +1,11 @@
 import { useState } from "react";
-import "./projectpage.css";
 import { useEffect } from "react";
+import { ProjectDisplay } from "../../components/ProjectDisplay/ProjectDisplay";
 import gsap from "gsap";
 import jewel from "../../assets/jewelvid.mp4";
 import pt from "../../assets/ptvid.mp4";
 import applePie from "../../assets/applePieCafe.mp4";
-import { ProjectDisplay } from "../../components/ProjectDisplay/ProjectDisplay";
+import "./projectpage.css";
 
 function ProjectPage() {
   const [projectIndex, setProjectIndex] = useState(0);
