@@ -10,20 +10,12 @@ import "./projectpage.css";
 function ProjectPage() {
   const [projectIndex, setProjectIndex] = useState(0);
 
-  const projectNameList = [
-    "Retail",
-    "Services",
-    "Restuarants",
-    "Project 4",
-    "Project 5",
-  ];
+  const projectNameList = ["Retail", "Services", "Restuarants"];
 
   const projectDisplayList = [
     <ProjectDisplay video={jewel} title={"Retail"} />,
     <ProjectDisplay video={pt} title={"Services"} />,
     <ProjectDisplay video={applePie} title={"Restuarants"} />,
-    "Project 4",
-    "Project 5",
   ];
 
   useEffect(() => {
