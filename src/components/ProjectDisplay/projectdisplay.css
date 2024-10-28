@@ -8,18 +8,31 @@
   justify-content: flex-start;
 }
 
+.project-intro-section {
+  width: 100%;
+  height: 800px;
+}
+
 .project-comp-title-container {
   width: 100%;
-  height: 10%;
+  height: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.project-comp-title-container h1 {
+  position: absolute;
+  font-size: 8rem;
+  top: -58px;
 }
 
 .project-comp-vid-container {
   width: 100%;
-  height: 90%;
+  height: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,4 +44,5 @@
   height: 100%;
   object-fit: cover;
   object-position: top;
+  z-index: 5;
 }

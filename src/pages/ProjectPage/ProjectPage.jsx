@@ -19,9 +19,9 @@ function ProjectPage() {
   ];
 
   const projectDisplayList = [
-    <ProjectDisplay video={jewel} title={"Jewelry Store"} />,
-    <ProjectDisplay video={pt} title={"Physical Therapist"} />,
-    <ProjectDisplay video={applePie} title={"Apple Pie Cafe"} />,
+    <ProjectDisplay video={jewel} title={"Retail"} />,
+    <ProjectDisplay video={pt} title={"Services"} />,
+    <ProjectDisplay video={applePie} title={"Restuarant"} />,
     "Project 4",
     "Project 5",
   ];

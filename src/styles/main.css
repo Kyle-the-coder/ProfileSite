@@ -10,7 +10,7 @@ body {
 }
 
 .main-container {
-  width: 90%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -19,4 +19,17 @@ body {
 .main-container,
 .navbar-main-container {
   box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Font1";
+  src: url("./Raleway-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+.font1 {
+  font-family: "Font1", sans-serif;
+  transform: scaleY(1.5);
+  display: inline-block;
 }
