@@ -16,10 +16,24 @@
   padding: 20px;
   flex-direction: column;
   justify-content: flex-start;
+  align-items: center;
   position: absolute;
   top: 0;
   left: 5px;
   bottom: 0;
+}
+
+.item-list {
+  cursor: pointer;
+  font-size: 2rem;
+}
+.item-list:hover {
+  color: rgb(153, 196, 231);
+  text-decoration: underline;
+}
+.hightlight {
+  color: rgb(153, 196, 231);
+  text-decoration: underline;
 }
 
 .project-display-container {

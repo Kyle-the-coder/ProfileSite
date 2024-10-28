@@ -9,7 +9,7 @@ import "./projectpage.css";
 
 function ProjectPage() {
   const [projectIndex, setProjectIndex] = useState(0);
-
+  const [hoverIndex, setHoverIndex] = useState(null);
   const projectNameList = ["Retail", "Services", "Restuarants"];
 
   const projectDisplayList = [
@@ -26,12 +26,25 @@ function ProjectPage() {
     );
   }, [projectIndex]);
 
+  const handleMouseEnter = (index) => {
+    setHoverIndex(index);
+  };
+  const handleMouseLeave = () => {
+    setHoverIndex(null);
+  };
+
   return (
     <div className="project-main-container">
       <div className="project-list-container">
         {projectNameList.map((item, index) => {
           return (
-            <h1 key={item} onClick={() => setProjectIndex(index)}>
+            <h1
+              key={item}
+              className={`item-list ${index === projectIndex && "hightlight"}`}
+              onClick={() => setProjectIndex(index)}
+              onMouseEnter={() => handleMouseEnter(index)}
+              onMouseLeave={() => handleMouseLeave()}
+            >
               {item}
             </h1>
           );
