@@ -11,7 +11,8 @@
   width: 15%;
   height: 100%;
   border-radius: 0.5rem;
-  border: 5px solid rgb(11, 47, 78);
+  border: 5px solid rgb(153, 196, 231);
+  background-color: rgb(2, 22, 40);
   display: flex;
   padding: 20px;
   flex-direction: column;
