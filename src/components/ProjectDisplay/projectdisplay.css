@@ -63,6 +63,14 @@
   margin-top: 10%;
 }
 
+.project-vid-quote {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 10%;
+  justify-content: center;
+}
+
 .project-vid-exp video {
   width: 50%;
   object-fit: contain;
