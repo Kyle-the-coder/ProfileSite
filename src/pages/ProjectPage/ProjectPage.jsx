@@ -11,9 +11,9 @@ function ProjectPage() {
   const [projectIndex, setProjectIndex] = useState(0);
 
   const projectNameList = [
-    "Project 1",
-    "Project 2",
-    "Project 3",
+    "Retail",
+    "Services",
+    "Restuarants",
     "Project 4",
     "Project 5",
   ];
@@ -21,7 +21,7 @@ function ProjectPage() {
   const projectDisplayList = [
     <ProjectDisplay video={jewel} title={"Retail"} />,
     <ProjectDisplay video={pt} title={"Services"} />,
-    <ProjectDisplay video={applePie} title={"Restuarant"} />,
+    <ProjectDisplay video={applePie} title={"Restuarants"} />,
     "Project 4",
     "Project 5",
   ];
