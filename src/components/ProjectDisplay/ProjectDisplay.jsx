@@ -7,13 +7,13 @@ export function ProjectDisplay({ video, title }) {
           <h1 className="font1">{title}</h1>
         </div>
         <div className="project-comp-vid-container">
-          <video src={video} autoPlay className="project-comp-vid" controls />
+          <video src={video} className="project-comp-vid" controls />
         </div>
       </div>
 
       <div className="project-details-section">
         <div className="project-vid-exp">
-          <video src={video} autoPlay controls />
+          <video src={video} controls />
           <div className="project-vid-details">
             <h1>Title</h1>
             <p>
@@ -36,7 +36,7 @@ export function ProjectDisplay({ video, title }) {
               reprehenderit in voluptate velit esse cillum.
             </p>
           </div>
-          <video src={video} autoPlay controls />
+          <video src={video} controls />
         </div>
       </div>
     </div>
