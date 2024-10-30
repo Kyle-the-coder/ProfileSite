@@ -6,11 +6,14 @@ import jewel from "../../assets/jewelvid.mp4";
 import pt from "../../assets/ptvid.mp4";
 import applePie from "../../assets/applePieCafe.mp4";
 import "./projectpage.css";
+import LandingTextDisplay from "../../components/LandingTextDisplay/LandingTextDisplay";
+import ImgGrid from "../../components/ImgGrid/ImgGrid";
 
 function ProjectPage() {
   const [projectIndex, setProjectIndex] = useState(0);
   const [hoverIndex, setHoverIndex] = useState(null);
   const projectNameList = ["Retail", "Services", "Restuarants"];
+  const [isFirstRender, setIsFirstRender] = useState(true);
 
   const projectDisplayList = [
     <ProjectDisplay video={jewel} title={"Retail"} />,
@@ -35,7 +38,11 @@ function ProjectPage() {
 
   return (
     <div className="project-main-container">
-      <div className="project-list-container">
+      <div className="landing-img-display-container">
+        <LandingTextDisplay />
+        <ImgGrid setIsFirstRender={setIsFirstRender} />
+      </div>
+      {/* <div className="project-list-container">
         {projectNameList.map((item, index) => {
           return (
             <h1
@@ -49,7 +56,7 @@ function ProjectPage() {
             </h1>
           );
         })}
-      </div>
+      </div> */}
       <div className="project-display-container">
         <div className="project-container">
           {projectDisplayList[projectIndex]}
