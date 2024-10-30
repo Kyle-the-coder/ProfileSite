@@ -39,6 +39,12 @@ function ProjectPage() {
   return (
     <div className="project-main-container">
       <div className="landing-img-display-container">
+        <div className="bg-text-display">
+          <div className="bg-text">
+            <h1>Web Projects</h1>
+          </div>
+          <div className="bg-color"></div>
+        </div>
         <LandingTextDisplay />
         <ImgGrid setIsFirstRender={setIsFirstRender} />
       </div>
