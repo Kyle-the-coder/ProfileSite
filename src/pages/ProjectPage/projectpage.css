@@ -38,10 +38,12 @@
 }
 
 .project-display-container {
-  width: 85%;
+  width: 84.5%;
   height: 100%;
   padding: 0 15px 0 0;
   display: flex;
+  background-color: rgba(163, 16, 16, 0.677);
+  border-radius: 0.5rem;
   justify-content: flex-end;
   align-items: center;
 }

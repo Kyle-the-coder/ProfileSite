@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 5%;
+  border-bottom: 2px solid white;
 }
 
 .navbar-logo-container {

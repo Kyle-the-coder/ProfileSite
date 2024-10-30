@@ -30,6 +30,6 @@ body {
 
 .font1 {
   font-family: "Font1", sans-serif;
-  transform: scaleY(1.5);
+  transform: scaleY(2.5);
   display: inline-block;
 }
