@@ -105,4 +105,11 @@
   .landing-img-display-container {
     flex-direction: column;
   }
+  .bg-text > h1 {
+    position: absolute;
+    top: -120px;
+    right: 10px;
+    font-size: 5rem;
+    color: rgb(28, 28, 28);
+  }
 }
