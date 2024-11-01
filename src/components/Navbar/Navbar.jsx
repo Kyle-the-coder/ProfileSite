@@ -110,7 +110,10 @@ export function Navbar() {
                   <div key={link.linkName}>
                     <h3
                       className="dropdown-link-name"
-                      onClick={() => handleNavigation(link.link)}
+                      onClick={() => {
+                        navigate(link.link);
+                        handleActivateHamburger();
+                      }}
                     >
                       {link.linkName}
                     </h3>
