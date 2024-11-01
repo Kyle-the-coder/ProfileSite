@@ -33,3 +33,7 @@ body {
   transform: scaleY(2.5);
   display: inline-block;
 }
+
+.no-scroll {
+  overflow: hidden;
+}

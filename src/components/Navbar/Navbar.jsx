@@ -86,7 +86,7 @@ export function Navbar() {
     <div className="navbar-main-container">
       {windowWidth <= 800 ? (
         //Phone View
-        <div className="navbar-main-container">
+        <>
           <img
             src={logo}
             className="navbar-logo"
@@ -122,7 +122,7 @@ export function Navbar() {
               })}
             </div>
           )}
-        </div>
+        </>
       ) : (
         //Default Monitor View
         <>
