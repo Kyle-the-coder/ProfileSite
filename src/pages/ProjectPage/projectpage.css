@@ -100,3 +100,9 @@
   align-items: center;
   overflow: hidden;
 }
+
+@media only screen and (max-width: 800px) {
+  .landing-img-display-container {
+    flex-direction: column;
+  }
+}
