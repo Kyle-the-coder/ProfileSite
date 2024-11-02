@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import logo from "../../assets/logo.jpg";
+import logo from "../../assets/DarkBccLogo.png";
 import fb from "../../assets/fb.png";
 import insta from "../../assets/insta.png";
 import gsap from "gsap";
