@@ -2,13 +2,18 @@
   width: 50%;
   height: 100%;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: flex-end;
-  padding-bottom: 40px;
+  justify-content: center;
   perspective: 20rem;
-  position: relative;
   transition: all 0.8s;
+  flex: 1;
+}
+.grid-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  transform: rotateX(20deg) rotateY(5deg) rotateZ(-25deg);
 }
 
 .grid-1,
@@ -22,55 +27,44 @@
 
 .grid-1 {
   position: absolute;
-  bottom: 290px;
-  transform: rotateX(20deg) rotateY(5deg) rotateZ(-25deg);
+  right: -20px;
+  bottom: 310px;
 }
 
 .grid-2 {
   margin-left: 50px;
   margin-bottom: 30px;
   position: absolute;
-  bottom: 80px;
-  transform: rotateX(20deg) rotateY(5deg) rotateZ(-25deg);
+  bottom: 75px;
 }
 .grid-3 {
   position: absolute;
-  bottom: -65px;
+  bottom: -125px;
   right: -185px;
   margin-left: 50px;
   margin-bottom: 30px;
-  transform: rotateX(20deg) rotateY(5deg) rotateZ(-25deg);
 }
 
 /* Apply individual rotations to each image for a fanned look */
 .grid-img {
-  width: 350px;
+  width: clamp(350px, 50vw, 400px);
   height: auto;
   box-shadow: -3px 4px 10px rgba(95, 95, 95, 0.574); /* Add shadow for depth */
 }
 
-/* @media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) {
+  .img-grid-container-main {
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+  }
+
   .grid-1 {
-    position: absolute;
-    right: -300px;
-    bottom: 190px;
-    transform: rotateX(20deg) rotateY(5deg) rotateZ(-25deg);
+    bottom: 255px;
+    right: -30px;
   }
 
   .grid-2 {
-    margin-left: 50px;
-    margin-bottom: 30px;
-    position: absolute;
-    bottom: 0px;
-    right: -400px;
-    transform: rotateX(20deg) rotateY(5deg) rotateZ(-25deg);
+    bottom: 50px;
   }
-  .grid-3 {
-    position: absolute;
-    bottom: -205px;
-    right: -505px;
-    margin-left: 50px;
-    margin-bottom: 30px;
-    transform: rotateX(20deg) rotateY(5deg) rotateZ(-25deg);
-  }
-} */
+}
