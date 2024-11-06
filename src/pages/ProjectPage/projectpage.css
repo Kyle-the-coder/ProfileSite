@@ -21,7 +21,6 @@
   width: 100%;
   height: 600px;
   color: white;
-  margin: 0 auto;
   display: flex;
   justify-content: center;
   overflow: hidden;
@@ -29,6 +28,7 @@
   position: relative;
   flex-wrap: wrap;
   background-color: #4a5cfa;
+  margin-bottom: 200px;
 }
 .bg-text {
   width: 100%;
@@ -52,8 +52,15 @@
   background-color: rgb(15, 15, 15);
 }
 
+.project-display-main-container {
+  width: 100%;
+  height: 900px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
 .project-list-container {
-  width: 15%;
+  width: fit-content;
   height: 100%;
   border-radius: 0.5rem;
   border: 5px solid rgb(153, 196, 231);
@@ -63,10 +70,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  position: absolute;
-  top: 0;
-  left: 5px;
-  bottom: 0;
+  z-index: 3;
 }
 .item-list {
   cursor: pointer;
@@ -81,24 +85,12 @@
   text-decoration: underline;
 }
 
-.project-display-container {
-  width: 84.5%;
-  height: 100%;
-  padding: 0 15px 0 0;
-  display: flex;
-  border-radius: 0.5rem;
-  justify-content: flex-end;
-  align-items: center;
-}
-
 .project-container {
-  width: 98%;
-  height: 95%;
+  width: 100%;
+  height: 100%;
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  overflow: hidden;
+  align-items: flex-start;
 }
 
 @media only screen and (max-width: 800px) {

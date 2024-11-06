@@ -48,22 +48,28 @@ function ProjectPage() {
         <LandingTextDisplay />
         <ImgGrid setIsFirstRender={setIsFirstRender} />
       </div>
-      {/* <div className="project-list-container">
-        {projectNameList.map((item, index) => {
-          return (
-            <h1
-              key={item}
-              className={`item-list ${index === projectIndex && "hightlight"}`}
-              onClick={() => setProjectIndex(index)}
-              onMouseEnter={() => handleMouseEnter(index)}
-              onMouseLeave={() => handleMouseLeave()}
-            >
-              {item}
-            </h1>
-          );
-        })}
-      </div> */}
-      <div className="project-display-container">
+
+      <div className="project-display-main-container">
+        {/* SIDE BAR */}
+        <div className="project-list-container">
+          {projectNameList.map((item, index) => {
+            return (
+              <h1
+                key={item}
+                className={`item-list ${
+                  index === projectIndex && "hightlight"
+                }`}
+                onClick={() => setProjectIndex(index)}
+                onMouseEnter={() => handleMouseEnter(index)}
+                onMouseLeave={() => handleMouseLeave()}
+              >
+                {item}
+              </h1>
+            );
+          })}
+        </div>
+
+        {/* DISPLAY CONTAINER */}
         <div className="project-container">
           {projectDisplayList[projectIndex]}
         </div>
