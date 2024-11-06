@@ -59,7 +59,14 @@ function ProjectPage() {
       <div className="project-display-main-container">
         {/* DISPLAY CONTAINER */}
         <div className="project-container">
-          {projectDisplayList[projectIndex]}
+          <ProjectDisplay video={jewel} title={"Retail"} />
+        </div>
+
+        <div className="project-container">
+          <ProjectDisplay video={jewel} title={"Retail"} />
+        </div>
+        <div className="project-container">
+          <ProjectDisplay video={jewel} title={"Retail"} />
         </div>
       </div>
     </div>

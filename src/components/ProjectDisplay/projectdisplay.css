@@ -2,85 +2,31 @@
   width: 100%;
   height: 100%;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  justify-content: flex-start;
-  overflow-y: scroll;
-  padding: 0px 15px;
-}
-
-.project-intro-section {
-  width: 100%;
-  height: 800px;
-}
-
-.project-comp-title-container {
-  width: 100%;
-  height: 20%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  z-index: 1;
-}
-
-.project-comp-title-container h1 {
-  font-size: 8rem;
-  letter-spacing: 5px;
-}
-
-.project-comp-vid-container {
-  width: 100%;
-  height: 70%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-}
-
-.project-comp-vid {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  object-position: top;
-  z-index: 5;
-}
-
-.project-details-section {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.project-vid-exp {
-  width: 100%;
-  display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 10%;
+  border-bottom: 3px solid rgb(201, 201, 201);
 }
 
-.project-vid-quote {
-  width: 100%;
+.project-vid {
+  width: 520px;
+  height: 100%;
   display: flex;
-  align-items: center;
-  margin-top: 10%;
   justify-content: center;
+  align-items: center;
+  object-fit: contain;
 }
 
-.project-vid-exp video {
-  width: 50%;
+.project-vid video {
+  width: 100%;
   object-fit: contain;
 }
 
 .project-vid-details {
-  width: 50%;
+  width: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
+  background-color: antiquewhite;
 }
