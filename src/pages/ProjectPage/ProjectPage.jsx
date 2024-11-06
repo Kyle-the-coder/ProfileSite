@@ -41,7 +41,7 @@ function ProjectPage() {
       <div className="landing-img-display-container">
         <div className="bg-text-display">
           <div className="bg-text">
-            <h1>Web Projects</h1>
+            <h1 className="font1">Web Projects</h1>
           </div>
           <div className="bg-color"></div>
         </div>
@@ -49,27 +49,14 @@ function ProjectPage() {
         <ImgGrid setIsFirstRender={setIsFirstRender} />
       </div>
 
-      <div className="project-display-main-container">
-        {/* SIDE BAR */}
-        <div className="project-list-container">
-          <h1 className="list-title">Categories:</h1>
-          {projectNameList.map((item, index) => {
-            return (
-              <h1
-                key={item}
-                className={`item-list ${
-                  index === projectIndex && "hightlight"
-                }`}
-                onClick={() => setProjectIndex(index)}
-                onMouseEnter={() => handleMouseEnter(index)}
-                onMouseLeave={() => handleMouseLeave()}
-              >
-                {item}
-              </h1>
-            );
-          })}
-        </div>
+      <div className="project-quote-container">
+        <h1 className="font1">
+          Unlock new possibilities with a{" "}
+          <span className="blue-font">Blue Collar</span> Website today
+        </h1>
+      </div>
 
+      <div className="project-display-main-container">
         {/* DISPLAY CONTAINER */}
         <div className="project-container">
           {projectDisplayList[projectIndex]}

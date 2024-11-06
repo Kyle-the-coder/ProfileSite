@@ -39,7 +39,7 @@
 }
 .bg-text > h1 {
   position: absolute;
-  top: -170px;
+  top: -180px;
   right: 10px;
   font-size: clamp(7rem, 5vw, 8rem);
   color: rgb(15, 15, 15);
@@ -50,6 +50,15 @@
   width: 100%;
   height: 90%;
   background-color: rgb(15, 15, 15);
+}
+
+.project-quote-container {
+  width: 100%;
+  height: 300px;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .project-display-main-container {
@@ -109,16 +118,16 @@
   }
   .bg-text > h1 {
     position: absolute;
-    top: -120px;
-    right: 10px;
+    top: -130px;
+    right: -180px;
     font-size: 5rem;
   }
 }
 @media only screen and (max-width: 600px) {
   .bg-text > h1 {
     position: absolute;
-    top: -100px;
-    right: -80px;
+    top: -110px;
+    right: -120px;
     font-size: 4.2rem;
   }
 }
