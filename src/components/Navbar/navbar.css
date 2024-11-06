@@ -57,14 +57,14 @@
 }
 
 .navbar-link:hover {
-  color: #ece1d0;
+  color: #4a5cfa;
 }
 
 .active1 {
   width: 100%;
   margin-top: 1px;
   height: 2px;
-  background-color: #ece1d0;
+  background-color: #4a5cfa;
 }
 
 @media only screen and (max-width: 800px) {

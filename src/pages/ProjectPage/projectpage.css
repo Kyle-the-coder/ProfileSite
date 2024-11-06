@@ -62,7 +62,6 @@
 .project-list-container {
   width: fit-content;
   height: 100%;
-
   background: linear-gradient(
     to bottom,
     rgb(15, 15, 15) 0%,
@@ -91,7 +90,7 @@
   text-decoration: underline;
 }
 .hightlight {
-  color: rgb(153, 196, 231);
+  color: #86d4d8;
   text-decoration: underline;
 }
 
