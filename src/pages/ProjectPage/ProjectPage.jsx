@@ -52,6 +52,7 @@ function ProjectPage() {
       <div className="project-display-main-container">
         {/* SIDE BAR */}
         <div className="project-list-container">
+          <h1 className="list-title">Categories:</h1>
           {projectNameList.map((item, index) => {
             return (
               <h1
