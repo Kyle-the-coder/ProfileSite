@@ -52,7 +52,7 @@ function ProjectPage() {
       <div className="project-quote-container">
         <h1 className="font1">
           Unlock new possibilities with a{" "}
-          <span className="blue-font">Blue Collar</span> Website today
+          <span className="blue-font">Blue Collar Website</span> today
         </h1>
       </div>
 

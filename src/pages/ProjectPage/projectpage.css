@@ -4,8 +4,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: top;
-  position: relative;
+  align-items: center;
 }
 
 .bg-text-display {
@@ -28,7 +27,6 @@
   position: relative;
   flex-wrap: wrap;
   background-color: #4a5cfa;
-  margin-bottom: 200px;
 }
 .bg-text {
   width: 100%;
@@ -53,14 +51,16 @@
 }
 
 .project-quote-container {
-  width: 100%;
-  height: 300px;
-  background-color: antiquewhite;
+  width: 85%;
+  height: 800px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
+.project-quote-container > h1 {
+  font-size: 4rem;
+  text-align: center;
+}
 .project-display-main-container {
   width: 100%;
   height: 900px;

@@ -109,7 +109,7 @@ export function Navbar() {
                 return (
                   <div key={link.linkName}>
                     <h3
-                      className="dropdown-link-name"
+                      className="dropdown-link-name font1"
                       onClick={() => {
                         navigate(link.link);
                         handleActivateHamburger();
@@ -150,7 +150,7 @@ export function Navbar() {
             {links.map((link, index) => {
               return (
                 <h3
-                  className="navbar-link f1-8"
+                  className="navbar-link font1"
                   key={link.linkName}
                   onClick={() => navigate(link.link)}
                   onMouseEnter={() => handleMouseEnter(index)}
