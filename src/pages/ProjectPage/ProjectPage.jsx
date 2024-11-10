@@ -59,14 +59,26 @@ function ProjectPage() {
       <div className="project-display-main-container">
         {/* DISPLAY CONTAINER */}
         <div className="project-container">
-          <ProjectDisplay video={jewel} title={"Retail"} />
+          <ProjectDisplay
+            video={jewel}
+            title={"Retail"}
+            desc={"This is the description. Lorme ipsum"}
+          />
         </div>
 
         <div className="project-container">
-          <ProjectDisplay video={jewel} title={"Retail"} />
+          <ProjectDisplay
+            video={jewel}
+            title={"Retail"}
+            desc={"This is the description. Lorem Isum"}
+          />
         </div>
         <div className="project-container">
-          <ProjectDisplay video={jewel} title={"Retail"} />
+          <ProjectDisplay
+            video={jewel}
+            title={"Retail"}
+            desc={"This is the description. Lurem Island"}
+          />
         </div>
       </div>
     </div>
