@@ -60,8 +60,8 @@ function ProjectPage() {
         {/* DISPLAY CONTAINER */}
         <div className="project-container">
           <ProjectDisplay
-            video={jewel}
-            title={"Retail"}
+            video={applePie}
+            title={"Restaurant"}
             desc={"This is the description. Lorme ipsum"}
           />
         </div>
@@ -75,8 +75,8 @@ function ProjectPage() {
         </div>
         <div className="project-container">
           <ProjectDisplay
-            video={jewel}
-            title={"Retail"}
+            video={pt}
+            title={"Services"}
             desc={"This is the description. Lurem Island"}
           />
         </div>
