@@ -14,7 +14,7 @@ export function HeroSection() {
         nav="/projects"
         padding="15px 25px 15px 25px"
         buttonName={"See Projects"}
-        size="1.5rem"
+        size="clamp(1rem, 2vw, 5rem)"
       />
     </div>
   );

@@ -12,7 +12,7 @@
 }
 .hero-main-container h1 {
   z-index: 2;
-  font-size: 5rem;
+  font-size: clamp(2.5rem, 7.5vw, 11rem);
   text-shadow: 2px -2px 0px black, 2px -2px 0px black, -2px 2px 0px black,
     2px -2px 0px black, 4px 4px 6px rgba(0, 0, 0, 0.5);
 }
